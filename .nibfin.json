@@ -1,8 +1,8 @@
 {
   "skills": {
-    "deliver": {
-      "mode": "extend",
-      "path": "docs/agent/deliver.md"
+    "shape": {
+      "mode": "override",
+      "path": ".nibfin/skills/shape-override.md"
     }
   }
 }
