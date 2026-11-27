@@ -1,8 +1,5 @@
 {
-  "skills": {
-    "shape": {
-      "mode": "override",
-      "path": ".nibfin/skills/shape-write.md"
-    }
+  "tools": {
+    "python": "3.99.99"
   }
 }
