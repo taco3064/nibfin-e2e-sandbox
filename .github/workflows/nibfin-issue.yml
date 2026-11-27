@@ -177,4 +177,3 @@ jobs:
               echo "The $EVENT_NAME event is not routed"
               ;;
           esac
-# nibfin-e2e: local change
