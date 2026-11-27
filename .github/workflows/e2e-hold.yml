@@ -1,0 +1,23 @@
+name: e2e hold
+on:
+  workflow_dispatch:
+    inputs:
+      seconds:
+        required: true
+      notAfter:
+        required: true
+permissions: {}
+jobs:
+  hold:
+    runs-on: self-hosted
+    timeout-minutes: 10
+    steps:
+      - name: Hold the Runner
+        env:
+          S: ${{ inputs.seconds }}
+          NOT_AFTER: ${{ inputs.notAfter }}
+        run: |
+          case "$S" in ''|*[!0-9]*) echo "seconds must be digits"; exit 1;; esac
+          case "$NOT_AFTER" in ''|*[!0-9]*) echo "notAfter must be digits"; exit 1;; esac
+          if [ "$(date +%s)" -gt "$NOT_AFTER" ]; then echo "past notAfter; not holding"; exit 0; fi
+          sleep "$S"
