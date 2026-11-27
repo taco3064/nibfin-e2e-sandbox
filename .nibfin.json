@@ -2,7 +2,7 @@
   "skills": {
     "shape": {
       "mode": "extend",
-      "path": "../outside.md"
+      "path": ".nibfin/skills/escape.md"
     }
   }
 }
