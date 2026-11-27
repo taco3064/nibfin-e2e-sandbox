@@ -3,3 +3,8 @@
 This is an automated test sandbox for Nibfin e2e, not a real project. The
 nibfin-e2e harness resets it to this content before every gate run and deletes
 everything a run created afterwards. Do not keep anything here.
+
+## clamp
+
+`clamp(n, lo, hi)` in `src/e2e-i-rd1d015.js` returns `n` limited to the range
+`lo`..`hi`: `lo` when `n < lo`, `hi` when `n > hi`, and `n` otherwise.
