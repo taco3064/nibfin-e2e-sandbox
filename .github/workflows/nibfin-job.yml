@@ -47,7 +47,7 @@ permissions: {}
 
 env:
   IMAGE: ghcr.io/taco3064/nibfin
-  IMAGE_REF: ghcr.io/taco3064/nibfin@sha256:8e5240b09fc59dedc2268f3f129352d08315da64446b157a2480b71163afa89a
+  IMAGE_REF: ghcr.io/taco3064/nibfin@sha256:2a918134fb33d0ab47ca0d2f1c60742b3472a150da43f4b1f25b23b169a5cbe1
 
 defaults:
   run:
