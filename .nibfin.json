@@ -1,13 +1,8 @@
 {
-  "tools": {
-    "node": "22.15.0",
-    "python": "3.13.7",
-    "go": "1.24.2"
-  },
   "skills": {
-    "shape": {
+    "deliver": {
       "mode": "extend",
-      "path": ".nibfin/skills/shape-extend.md"
+      "path": "docs/agent/deliver.md"
     }
   }
 }
