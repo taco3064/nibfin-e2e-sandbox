@@ -1,8 +1,8 @@
 {
   "skills": {
-    "shap": {
+    "shape": {
       "mode": "extend",
-      "path": ".nibfin/skills/note.md"
+      "path": "../outside.md"
     }
   }
 }
