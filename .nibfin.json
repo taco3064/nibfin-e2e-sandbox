@@ -1,1 +1,8 @@
-{"tools": {"node": "22.15.0",
+{
+  "skills": {
+    "shap": {
+      "mode": "extend",
+      "path": ".nibfin/skills/note.md"
+    }
+  }
+}
