@@ -1,8 +1,1 @@
-{
-  "skills": {
-    "shape": {
-      "mode": "override",
-      "path": ".nibfin/skills/shape-override.md"
-    }
-  }
-}
+{"tools": {"node": "22.15.0",
