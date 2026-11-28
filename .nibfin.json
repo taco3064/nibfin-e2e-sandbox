@@ -1,5 +1,3 @@
 {
-  "allowedDomains": [
-    "example.com"
-  ]
+  "writerBackend": "firecracker"
 }
