@@ -1,4 +1,4 @@
-/** Add negate (main's version). */
+/** Add negate (fixture version). */
 export function negate(x) {
   return -x;
 }
