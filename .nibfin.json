@@ -1,8 +1,5 @@
 {
-  "skills": {
-    "shape": {
-      "mode": "extend",
-      "path": ".nibfin/skills/missing.md"
-    }
-  }
+  "allowedDomains": [
+    "example.com"
+  ]
 }
